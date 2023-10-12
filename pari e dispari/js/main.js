@@ -1,13 +1,13 @@
 // console.log('pari e dispari');
 
 const userChoice = prompt('Scegli pari o dipari');
-console.log(userChoice);
+console.log(`Hai scelto ${userChoice}`);
 
 const userNumber = parseInt(prompt('Scegli un numero da 1 a 5'));
-console.log(userNumber);
+console.log(`Hai scelto il numero ${userNumber}`);
 
 const pcNumber = getRandomIntInclusive(1, 5); 
-console.log(pcNumber);
+console.log(`Il pc ha scelto ${pcNumber}`);
 
 function getRandomIntInclusive(min, max) {
     min = Math.ceil(min);
@@ -23,7 +23,7 @@ function sumCalc(numA, numB) {
     return sum;
 }
 
-console.log(sumNumber);
+console.log(`La somma è ${sumNumber}`);
 
 
  function isEven(num) {
