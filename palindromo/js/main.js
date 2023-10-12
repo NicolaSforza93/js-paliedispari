@@ -11,6 +11,9 @@ function reverseWord(word) {
     let wordReversed = '';
     // console.log(word.length);
 //   - apro un ciclo for decrescente
+//    - il ciclo inizierà con l'ultimo carattere della stringa
+//    - finchè i è >= a 0 il ciclo continua
+//    - decrementiamo dopo ogni iterazione
     for (let i = word.length - 1; i >= 0; i--) {
         wordReversed += word[i];
         // console.log(i, wordReversed);

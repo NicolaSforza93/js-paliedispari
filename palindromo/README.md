@@ -7,6 +7,9 @@ Chiedere all’utente di inserire una parola Creare una funzione per capire se l
   - do un nome alla funzione e inserisco l'argomento parola 
   - creo una variabile vuota che avrà la parola
   - apro un ciclo for decrescente
+    - il ciclo inizierà con l'ultimo carattere della stringa
+    - finchè i è >= a 0 il ciclo continua
+    - decrementiamo dopo ogni iterazione
   - restituisco la parola invertita
 - inizializzo una varibile che contenga la funzione
 - istruzioni condizionali
